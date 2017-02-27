@@ -20,7 +20,3 @@ Donde **variable** puede ser cualquier variable definida por el programador, **n
 
 Para probarlo se puede ir al siguiente [enlace](http://rejonpardenilla.heliohost.org/coffee-analizer/).
 
-
-
-
-
