@@ -1,14 +1,14 @@
-# CoffeScript
+# CoffeeScript
 
-# CoffeScript es un pequeño lenguaje que compila en JavaScript
+# CoffeeScript es un pequeño lenguaje que compila en JavaScript
 ----------
 ###La siguiente gramática libre de contexto tiene el siguiente cuádruplo:
 
     S = {Assignment}
     Vn = {Assignment, Expression, Value}
-    Vt = {variable, number, condition, =, if, then, else}
+    Vt = {variable, number, (condition), =, if, then, else}
     P = {
-          Assignment  🡢 var = Expression
+          Assignment  🡢 variable = Expression
           Expression  🡢 Value  | 
                         Value if (condition)  |
                         if (condition) then Value  |
