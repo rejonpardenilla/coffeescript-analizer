@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeScript analizer</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <header>
+      <div class="row align-center text-center">
+        <div class="column small-12">
+          <h1>CoffeScript analizer</h1>
+        </div>
+      </div>
+    </header>
+
+    <section id="main-container">
+      <div class="row align-center text-justify" 
+            id="instructions">
+        <div class="column medium-8">
+          <p>
+          Ésto es un analizador léxico para sentencias de asignación en CoffeScript. La gramática regular definida formalmente se encuentra <a href="http://github.com/rejonpardenilla/coffeescript-analizer">aquí</a>.<br><br>
+          • Para escribir una condición usa explícitamente la palabra "condition", de lo contrario será considerada como una variable. <br>
+          • Éste analizador es muy sensible a los espacios. &#128532; 
+          </p>
+        </div>
+      </div>
+
+      <div class="row align-center text-center"
+            id="input-container">
+        <div class="column medium-8">
+          <label id="label-expr"> </label>
+          <input id="input-expr" type="text" placeholder="
+date = if condition then sue else jill" class="text-center">
+        </div>
+      </div>
+    </section>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
